@@ -1,32 +1,32 @@
 # Library Management System
 
-Welcome to the Library Management System — a simple, console-based application implemented in C++. This system enables efficient book borrowing, subscription management and study room reservations.
+Welcome to the Library Management System — a simple, console-based C++ application designed for efficient library operations, including book management, user subscriptions and study room reservations.
 
-##  Features
+## Features
 
 - System Users:
-  - Subscriber: Has an account with a unique ID.
-  - Visitor: Can subscribe to become a member.
-- Management Books: User can borrow, return and rate books. 
-- User Balance Management: Users can add or deduct money from their account for services.
-- Searching: Search for subscribers and books in system.
-- Study Room Booking: Book and free study rooms.
+  - Subscriber: unique account with ID.
+  - Visitor: Temporary access with option to subscribe.
+- User Balance Management: Balance management (add/deduct funds).
+- Book Management: Borrow, return and rate books.
+- Searching: Search for subscribers or books in the system.
+- Study Room Booking: Reserve/free study rooms.
+
+## System Architecture
+
+### **Class Diagram Overview**
 
 
-<img src="https://github.com/user-attachments/assets/9b5fa5c2-126f-4399-b354-53f25c1357d0" width="500" height="500"/>
-
-
-
-
+<img src="image-1.png" alt="UML Diagram" style="width:45%; max-width:800px;"/>
 
 ##  Getting Started
 
 ### Prerequisites
-- List any software, tools, or dependencies needed.
+- C++17 compiler (GCC, Clang, or MSVC)
+- CMake (optional, for building)
 
 ### Installation
-```bash
-# steps to install/run the project
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-install dependencies...
+git clone <https://github.com/emannhassan/Library-Management-System>
+cd Library-Management-System
+make build
+./bin/library_system
