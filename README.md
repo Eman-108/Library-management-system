@@ -17,7 +17,7 @@ Welcome to the Library Management System — a simple, console-based C++ applica
 ### **Class Diagram Overview**
 
 
-<img src="image-1.png" alt="UML Diagram" style="width:45%; max-width:800px;"/>
+<img src="image-1.png" alt="UML Diagram" style="width:50%; max-width:800px;"/>
 
 ##  Getting Started
 
